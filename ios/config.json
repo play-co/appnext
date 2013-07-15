@@ -1,0 +1,11 @@
+{
+	"code": [
+		"AppNextUIView.h",
+		"AppnextPlugin.h",
+		"AppnextPlugin.mm"
+	],
+	"frameworks": [
+		"AdSupport",
+		"libAppnextLib.a"
+	]
+}
