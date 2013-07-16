@@ -53,7 +53,7 @@ public class AppnextPlugin implements IPlugin {
 
 		logger.log("{appnext} Installing for placementID:", appnextPlacementID);
 
-		_appnext = new Appnext(_ctx);
+		_appnext = new Appnext(activity);
 		_appnext.setAppID(appnextPlacementID);
 	}
 
