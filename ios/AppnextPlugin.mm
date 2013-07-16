@@ -62,7 +62,6 @@
 }
 
 - (void) showInterstitial:(NSDictionary *)jsonObject {
-	// Send the list of purchases that may have been missed by the JavaScript during startup
 	@try {
 		[self.adView showPopup];
 	}
