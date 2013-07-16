@@ -1,6 +1,6 @@
 # Game Closure DevKit Plugin: Appnext
 
-This plugin adds analytics support from the [Appnext service](http://appnext.com) for Android and iOS platforms.
+This plugin adds ad interstitial support from the [Appnext service](http://appnext.com) for Android and iOS platforms.
 
 ## Usage
 

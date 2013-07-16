@@ -1,0 +1,12 @@
+{
+		"copyFiles": [
+			"AppnextPlugin.java"
+		],
+		"libraries": [
+		],
+		"jars": [
+			"./AppNextSDK.jar"
+		],
+		"injectionXML": "manifest.xml",
+		"injectionXSL": "manifest.xsl"
+}

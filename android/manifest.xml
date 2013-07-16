@@ -1,0 +1,13 @@
+<!--START_PLUGINS_MANIFEST-->
+<!--END_PLUGINS_MANIFEST-->
+<!--START_PLUGINS_APPLICATION-->
+	<!--Appnext-->
+	<meta-data android:name="appnextPlacementID" android:value="" />
+	<receiver android:name="com.appnext.appnextsdk.ReferralReceiver"
+		android:exported="true" >
+		<intent-filter>
+			<action android:name="com.android.vending.INSTALL_REFERRER" />
+		</intent-filter>
+	</receiver>
+<!--END_PLUGINS_APPLICATION-->
+
