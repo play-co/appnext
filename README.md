@@ -4,6 +4,8 @@ This plugin adds ad interstitial support from the [Appnext service](http://appne
 
 ## Usage
 
+To use Appnext to display an ad in your game, first use the [Appnext website](http://appnext.com) to create a new placement ID.
+
 Install the addon with `basil install appnext`.
 
 Include it in the `manifest.json` file under the "addons" section for your game:
@@ -44,7 +46,7 @@ Under the Android/iOS sections, you can configure the Appnext plugin:
 	},
 ~~~
 
-To use Appnext to display an ad in your game, first use the [Appnext website](http://appnext.com) to create a new placement ID.  Then you can edit your game JavaScript code to import the Appnext object:
+Then you can edit your game JavaScript code to import the Appnext object:
 
 ~~~
 import plugins.appnext.appnext as appnext;
